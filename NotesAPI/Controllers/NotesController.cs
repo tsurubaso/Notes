@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using NotesAPI.Data;
 using NotesAPI.Models.Entities;
 
+//This tuto
+//https://www.youtube.com/watch?v=aE5Ksj3fris
+
 namespace NotesAPI.Controllers
 {
 
@@ -55,8 +58,7 @@ namespace NotesAPI.Controllers
             return Ok(note);
         }
 
-        //22:57
-        //https://www.youtube.com/watch?v=aE5Ksj3fris
+        
 
         [HttpPost]
 
